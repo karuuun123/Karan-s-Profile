@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Karan <span>Thakur</span></a>
+
+      <i class="fa-solid fa-bars" id="menu-icons"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="gradient-btn">Contact Me</button>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Karan</span></h1>
+        <h3>I'm a <span>Java FullStack Developer</span></h3>
+        <p>
+          I'm 💻 Java Full Stack Developer with strong knowledge of Core Java,
+          Oops for backend development, <br />
+          and HTML, CSS, JavaScript, React.js for frontend. Skilled in working
+          with MySQL databases, <br />
+          and experienced with tools like Git, Github, VSCode Editor, Terminal.
+          <br />
+          Proficient in Agile methodologies, debugging, and end-to-end software
+          development <br />
+          lifecycle (SDLC).
+        </p>
+        <div class="social-icons">
+          <a href="https://github.com/kaaraann" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/karan-thakur-37b2b4238/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/karuuu_n_/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://x.com/karan_1890" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <div class="btn-groups">
+          <a href="#" class="btn">Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="./images/Profile.jpeg" alt="" />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./images/Profile.jpeg" alt="" />
+      </div>
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>
+          "I am a Computer Engineering student and aspiring Software Developer
+          with strong skills in full-stack development. <br />
+          Worked on projects such as crowdfunding systems, which helped me gain
+          practical knowledge in both frontend and backend technologies.
+          <br />
+          I enjoy solving problems, writing clean and efficient code, and
+          building applications that improve user experience. <br />
+          My goal is to grow as a developer, keep learning new technologies, and
+          contribute to impactful projects."
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+      <div class="services-conatiner">
+        <div class="services-box">
+          <div class="services-info">
+            <i class="fa-solid fa-web-awesome"></i>
+            <h4>Canva</h4>
+            <p>
+              Canva is an online graphic design and editing platform where users
+              can easily create posters, presentations, social media posts,
+              logos, and more. It offers drag-and-drop tools, ready-made
+              templates, and design elements that make designing simple and
+              professional—even without advanced skills.
+            </p>
+          </div>
+        </div>
+        <div class="services-box">
+          <div class="services-info">
+            <i class="fa-solid fa-code"></i>
+            <h4>Frontend Development</h4>
+            <p>
+              Frontend Development is the part of web development that focuses
+              on what users see and interact with in a website or application.
+              It involves designing and building the user interface using
+              technologies like HTML, CSS, and JavaScript, along with frameworks
+              such as React. Frontend developers are responsible for making
+              websites responsive, user-friendly, and visually appealing,
+              ensuring smooth navigation and a great user experience. They also
+              work closely with backend developers to connect the design with
+              functionality, making the application both attractive and
+              efficient.
+            </p>
+          </div>
+        </div>
+        <div class="services-box">
+          <div class="services-info">
+            <i class="fa-solid fa-code-compare"></i>
+            <h4>Backend Development</h4>
+            <p>
+              Backend Development refers to the server-side part of a software
+              application that handles logic, database interactions,
+              authentication, and communication between the frontend and the
+              server. It ensures data is processed correctly and delivered to
+              the user interface. Backend developers work with technologies like
+              Java, Node.js, SQL/NoSQL databases, and APIs to build secure,
+              scalable, and efficient systems. In simple words, the backend is
+              the “behind-the-scenes” engine that makes applications function
+              smoothly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="projects-box">
+        <div class="projects-card">
+          <img src="./images/Carshop.jpeg" alt="Carshop" />
+          <h3>Carshop</h3>
+          <p>
+            CarShop is a responsive web project built with pure HTML, CSS, and
+            JavaScript to showcase and sell cars online. It features a clean
+            hero banner, a grid of vehicle cards (image, price, mileage, specs),
+            and a smart search + filters (make, model, year, budget) with
+            client-side sorting.
+          </p>
+          <div class="btn">Review Projects</div>
+        </div>
+
+        <div class="projects-card">
+          <img src="./images/earbuds.jpeg" alt="earbuds" />
+          <h3>Earbuds</h3>
+          <p>
+            Earbuds are compact wireless or wired audio devices designed for
+            personal listening. They deliver clear, immersive sound with >
+            features like active noise cancellation, long battery life, and
+            low-latency Bluetooth connectivity for seamless calls and gaming.
+          </p>
+          <div class="btn">Review Projects</div>
+        </div>
+        <div class="projects-card">
+          <img src="./images/Netflix.jpeg" alt="Netflix" />
+          <h3>Netflix</h3>
+          <p>
+            A Netflix-style web app built using HTML, CSS, and JavaScript that
+            reproduces the look and feel of a streaming service. It features a
+            responsive grid of movie and show cards, hover animations, a dynamic
+            detail modal, and a working search/filter bar.
+          </p>
+          <div class="btn">Review Projects</div>
+        </div>
+        <div class="projects-card">
+          <img src="./images/Weatherapp.jpeg" alt="Weatherapp" />
+          <h3>WeatherApp</h3>
+          <p>
+            A weather website built with HTML, CSS, and JavaScript provides
+            real-time weather information in a clean, responsive interface. It
+            fetches live data from a weather API to show current conditions,
+            hourly and 7-day forecasts, temperature, humidity, wind speed, and
+            weather icons.
+          </p>
+          <div class="btn">Review Projects</div>
+        </div>
+        <div class="projects-card">
+          <img src="./images/Crowdfunding.jpeg" alt="Crowdfunding" />
+          <h3>Crowdfunding</h3>
+          <p>
+            A web3 app that aims to create a transparent and secure funding
+            system for people investing in organizations. Our entire system is
+            driven by smart contracts and can be viewed on the blockchain,
+            ensuring a secure, transparent, and tamper-proof process for
+            managing and distributing funds.
+          </p>
+          <div class="btn">Review Projects</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="#">
+        <div class="input-groups">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-box">
+            <input type="tel" placeholder="Number" />
+            <input type="text" placeholder="Subjects" />
+          </div>
+        </div>
+        <div class="input-groups-2">
+          <textarea
+            name=""
+            id=""
+            placeholder="Your message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="https://github.com/kaaraann" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/karan-thakur-37b2b4238/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/karuuu_n_/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://x.com/karan_1890" target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+
+      <ul class="list">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <p class="copyright">@Karan Thakur |All Rights Reserved</p>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
